@@ -1,1 +1,7 @@
+*.user
+
 src/.vs/
+src/.idea/
+
+src/VisualHttpServer/bin/
+src/VisualHttpServer/obj/
