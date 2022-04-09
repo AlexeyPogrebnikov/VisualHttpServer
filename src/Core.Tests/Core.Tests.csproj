@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <AssemblyName>VisualHttpServer.Core.Tests</AssemblyName>
+        <RootNamespace>VisualHttpServer.Core.Tests</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+      <PackageReference Include="NUnit" Version="3.12.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Core\Core.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="server_project_file_content.json" />
+      <EmbeddedResource Include="server_project_file_content.json" />
+    </ItemGroup>
+
+</Project>
