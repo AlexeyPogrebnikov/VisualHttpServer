@@ -3,5 +3,7 @@
 src/.vs/
 src/.idea/
 
+src/Core/bin/
+src/Core/obj/
 src/VisualHttpServer/bin/
 src/VisualHttpServer/obj/
