@@ -23,7 +23,7 @@ namespace VisualHttpServer.Core.Tests
 					{
 						Method = "GET",
 						Path = "/",
-						Response = new Response()
+						Response = new Response
 						{
 							StatusCode = 302
 						}

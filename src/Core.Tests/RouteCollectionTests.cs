@@ -53,7 +53,7 @@ namespace VisualHttpServer.Core.Tests
 				}
 			});
 
-			var routes = new[]
+			Route[] routes =
 			{
 				new()
 				{
@@ -103,7 +103,7 @@ namespace VisualHttpServer.Core.Tests
 			};
 			routeCollection.Init(new[] {route});
 
-			var routes = routeCollection.ToArray();
+			Route[] routes = routeCollection.ToArray();
 
 			Assert.AreEqual(1, routes.Length);
 			Assert.AreSame(route, routes[0]);

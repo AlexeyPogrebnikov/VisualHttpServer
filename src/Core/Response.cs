@@ -28,6 +28,5 @@ namespace VisualHttpServer.Core
 
 			return sb.ToString();
 		}
-
 	}
 }

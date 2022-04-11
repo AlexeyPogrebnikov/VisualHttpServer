@@ -5,8 +5,8 @@ namespace VisualHttpServer.Core
 {
 	public class InteractionCollection
 	{
-		private IList<Interaction> _interactions = new List<Interaction>();
 		private readonly object _syncRoot = new();
+		private IList<Interaction> _interactions = new List<Interaction>();
 
 		public event EventHandler ItemAdded;
 
@@ -24,7 +24,7 @@ namespace VisualHttpServer.Core
 		{
 			lock (_syncRoot)
 			{
-				var interactions = _interactions;
+				IList<Interaction> interactions = _interactions;
 				_interactions = new List<Interaction>();
 				return interactions;
 			}
