@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:windows="clr-namespace:VisualHttpServer.Windows"
         mc:Ignorable="d"
-        Title="About VisualServer" Height="230" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="About VisualHttpServer" Height="230" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Window.DataContext>
         <windows:AboutProgramWindowViewModel />
     </Window.DataContext>
@@ -18,7 +18,7 @@
                 </StackPanel>
                 <StackPanel Orientation="Horizontal" Margin="0, 10, 0, 0">
                     <Label Content="Home Page:" />
-                    <TextBox Text="https://pogrebnikov.ru/projects/httpmock" VerticalContentAlignment="Center"
+                    <TextBox Text="https://pogrebnikov.ru/projects/visualhttpserver" VerticalContentAlignment="Center"
                              Foreground="Blue"
                              IsReadOnly="True" Margin="10, 0, 0, 0" Padding="5, 0, 5, 0" />
                 </StackPanel>
