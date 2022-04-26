@@ -9,3 +9,5 @@ src/Core.Tests/bin/
 src/Core.Tests/obj/
 src/VisualHttpServer/bin/
 src/VisualHttpServer/obj/
+src/VisualHttpServer.Tests/bin/
+src/VisualHttpServer.Tests/obj/
